@@ -1,0 +1,14 @@
+
+#include<iostream>
+using namespace std;
+ 
+int main()
+{
+   int d,w;
+    cout << " Enter the number of days" <<endl;
+    cin>>d;
+    w=d/7;
+    d=d%7;
+    cout << "Number of weeks  =" <<w<<"\tNumber of days ="<<d<<endl;
+    return 0;
+}
